@@ -1,0 +1,18 @@
+1.Tell me about yourself?
+2.how to attach EBS Volume to Windows Server ?
+3.how to detach EBS Volume from Windows Machine ?
+4.how to take RDS Back-up ?
+5.difference between Internet gateway and NAT Gateway ?
+6.difference between Security group and NACL ?
+7.how will you connect VPC between two Account ?
+8.how to take EBS backup ?
+9.how to take jenkins back-up ?
+10.what are the different stages in jenkins ?
+11. explain Jenkins CICD Pipeline ?
+12. where you check the VPC logs ?
+13. by default can we check memory utilization of ec2?
+14. how to create auto scaling group ?
+15. in auto scaling group if server restarts another instance will create or not ?
+16. what is git merge ?
+17. what is git clone use of it ?
+18. difference between jenkins scripting pipeline and declarative pipeline?
