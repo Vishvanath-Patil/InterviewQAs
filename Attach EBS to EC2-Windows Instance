@@ -1,0 +1,29 @@
+how to attach and detach EBS Volume to Windows Server ?
+document link -->> https://repost.aws/knowledge-center/attach-ebs-running-windows
+
+Prerequisites:-
+# the Volume and EC2 Instance should be in same Availability Zone
+# The EC2 Windows instance must be in the Stopped state.
+
+---
+# Determine how many volumes you can attach to your instance. The maximum number of Amazon EBS volumes that you can attach to an instance depends on the instance type and instance size
+# we can attach single volume to multiple instance 
+
+
+Before you proceed, be sure that you meet all the prerequisites to attach an Amazon EBS volume to an instance.
+The EC2 Windows instance must be in the Stopped state. 
+To attach a new EBS volume to an EC2 Windows instance, complete the following steps:
+
+Verify that your instance is in the Stopped state.
+From the Amazon EC2 console or the AWS Command Line Interface (AWS CLI), attach the EBS volume to the EC2 Windows instance with the device name /dev/sda1.
+Use Remote Desktop Protocol (RDP) to connect to your EC2 Windows instance.
+To attach an additional volume to an instance and make the volume available to Windows, complete the following steps:
+
+Attach the EBS volume to the Windows instance with the device name xvd[f-z]. For example, xvdf, xvdg, xvdh, . . . , xvdy, xvdz are all appropriate and available device names. For Nitro-based instances, see Amazon EBS and NVMe on Windows instances.
+Use RDP to connect to your Windows instance.
+Make the EBS volume available to use on Windows. You can use Windows PowerShell, the DiskPart command interpreter, or Disk Management to access the volume.
+Note: When you use a device name to attach a volume to an instance, don't use that device name again. Amazon EC2 doesn't allow you to use duplicate device names. If you use duplicate device names, then the operation fails with the following error:
+
+"Invalid value '/dev/xxx' for unixDevice. Attachment point /dev/xxx is already in use.
+
+
