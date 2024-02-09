@@ -1,7 +1,8 @@
 1.Tell me about yourself?
 
 2.how to attach EBS Volume to Windows Server ?
-https://repost.aws/knowledge-center/attach-ebs-running-windows
+
+ANS: https://repost.aws/knowledge-center/attach-ebs-running-windows
 
 3.how to detach EBS Volume from Windows Machine ?
 
