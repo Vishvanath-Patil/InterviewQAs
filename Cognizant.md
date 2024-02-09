@@ -6,6 +6,8 @@ ANS: https://repost.aws/knowledge-center/attach-ebs-running-windows
 
 3.how to detach EBS Volume from Windows Machine ?
 
+ANS: https://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/ebs-detaching-volume.html
+
 4.how to take RDS Back-up ?
 
 5.difference between Internet gateway and NAT Gateway ?
